@@ -1,0 +1,115 @@
+body {
+    background-color: #77b5fe;
+}
+
+#sect1 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#rocher {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+
+    right: 0vw;
+    top: 65vh;
+
+
+
+}
+
+#cloud1 {
+    position: absolute;
+    width: 300px;
+    height: auto;
+
+}
+
+#cloud2 {
+    position: absolute;
+    left: 25vw;
+    top: 20vh;
+    width: 300px;
+    height: auto;
+}
+
+#cloud3 {
+    position: absolute;
+    top: 25vh;
+    width: 300px;
+    height: auto;
+}
+
+#cloud4 {
+    position: absolute;
+    top: 2vh;
+    left: 45vw;
+    width: 300px;
+    height: 500px;
+}
+
+#cloud5 {
+    position: absolute;
+    top: 15vh;
+    left: 40vw;
+    width: 900px;
+    height: 600px;
+    z-index: -1;
+    filter: blur(10px);
+}
+
+#cloud6 {
+    position: absolute;
+    width: 400px;
+    height: auto;
+    top: 55vh;
+    left: 15vw;
+    filter: hue-rotate(0deg);
+    /* Teinte initiale (white) */
+
+    /* Ajouter une transition pour une animation fluide */
+
+}
+
+#eyes {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    top: 19.5vh;
+    left: 50.5vw;
+    filter: saturate(0.2);
+    opacity: 0;
+}
+
+#sect2 {
+    position: relative;
+    width: 100vw;
+    height: 1090px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#ocean {
+    position: absolute;
+    bottom: 0vh;
+    width: 100vw;
+    height: 70vh;
+}
+
+#cloud7 {
+    position: absolute;
+    right: 0vw;
+    top: 0vw;
+    width: 500px;
+    z-index: 1;
+}
+
+.birdSize {
+    width: 150px;
+    height: 150px;
+    opacity: 0;
+}
