@@ -8,6 +8,32 @@ body {
     height: 100vh;
 }
 
+#paragraphCenter {
+    position: absolute;
+    display: block;
+    top: 45vh;
+    left: 30vw;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    text-align: center;
+    width: 500px;
+    backdrop-filter: blur(2.5px);
+}
+
+.title {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 56px;
+
+}
+
+#paragraphCenter {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
 #rocher {
     width: 500px;
     height: 300px;
@@ -24,6 +50,7 @@ body {
     position: absolute;
     width: 300px;
     height: auto;
+    top: 3vh;
 
 }
 
@@ -48,6 +75,7 @@ body {
     left: 45vw;
     width: 300px;
     height: 500px;
+    z-index: 2;
 }
 
 #cloud5 {
@@ -56,18 +84,18 @@ body {
     left: 40vw;
     width: 900px;
     height: 600px;
-    z-index: -1;
     filter: blur(10px);
 }
 
 #cloud6 {
     position: absolute;
     width: 400px;
-    height: auto;
+    height: 300px;
     top: 55vh;
     left: 15vw;
-    filter: hue-rotate(0deg);
-    /* Teinte initiale (white) */
+    filter: invert(100%);
+    z-index: 78;
+
 
     /* Ajouter une transition pour une animation fluide */
 
@@ -81,15 +109,13 @@ body {
     left: 50.5vw;
     filter: saturate(0.2);
     opacity: 0;
+    z-index: 2;
 }
 
 #sect2 {
     position: relative;
     width: 100vw;
-    height: 1090px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 1500px;
     gap: 40px;
 }
 
@@ -98,6 +124,7 @@ body {
     bottom: 0vh;
     width: 100vw;
     height: 70vh;
+    left: 0vw;
 }
 
 #cloud7 {
@@ -109,7 +136,59 @@ body {
 }
 
 .birdSize {
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 250px;
+
+}
+
+#bird1 {
+    position: absolute;
+    top: 20vh;
+    left: 5vw;
     opacity: 0;
+}
+
+#bird2 {
+    position: absolute;
+    top: 50vh;
+    left: 45vw;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+#bird3 {
+    position: absolute;
+    top: 75vh;
+    left: 75vw;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+}
+
+#bird4 {
+    position: absolute;
+    top: 95vh;
+    left: 55vw;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+#grandTitle {
+
+    position: absolute;
+    text-align: center;
+    left: 50vw;
+    bottom: 60vh;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    z-index: 15;
+}
+
+#grandTitle h1 {
+    font-size: 100px;
+    display: inline;
+
+}
+
+.title2 {
+    font-size: 100px;
 }
